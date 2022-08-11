@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+}
+
+.container {
+    border: 2px solid green;
+    display: flex;
+    min-height: 100vh;
+}
+
+.logo {
+    border: 2px solid blue;
+    width: 50%;
+    height: 12rem;
+    margin-top: 15rem;
+}
+
+#pageContents {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+.paragraph {
+    height: 33%;
+    border: 2px solid black;
+}
+
+.formSection {
+    height: 33%;
+}
+
+.signUp {
+    height: 33%;
+    border: 2px solid black;
+}
