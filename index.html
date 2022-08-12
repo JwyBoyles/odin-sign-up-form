@@ -12,7 +12,7 @@
         <img src="./images/sunset.jpg" alt ="sunset" class=sunset>
         <div class = logo>
             <img src="./images/odin-lined.png" alt ="logo" class=odinLogo>
-            <div class = title>Nowhere</div>
+            <h1>Nowhere</h1>
         </div>
         <div class = pageContents>
             <div class = paragraph>
@@ -20,34 +20,40 @@
                 <p>Sign up below to get started</p>
             </div>
             <div class = formSection>
-                <form action="example.com/path" method="post">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="first_name">
-                  </form>
-                  <form action="example.com/path" method="post">
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="last_name">
-                  </form>
-                  <form action="example.com/path" method="post">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="nobody@nowhere.com">
-                  </form>
-                  <form action="example.com/path" method="post">
+                <form action="#" method="post">
+                  <ul>
+                    <li>
+                    <label for="firstName">*First Name:</label>
+                    <input type="text" id="firstName" name="first_name" required>
+                    </li>
+                    <li>
+                    <label for="lastName">*Last Name:</label>
+                    <input type="text" id="lastName" name="last_name" required>
+                    </li>
+                    <li>
+                      <label for="email">*Email:</label>
+                      <input type="email" id="email" name="email" placeholder="nobody@nowhere.com" required>
+                    </li>
+                    </ul>
+                    <ul>
+                    <li>
                     <label for="phone">Phone Number:</label>
                     <input type="tel" id="phoneNumber" name="phoneNumber">
-                  </form>
-                  <form action="example.com/path" method="post">
+                     </li>
+                     <li>
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password">
-                  </form>
-                  <form action="example.com/path" method="post">
+                  </li>
+                    <li>
                     <label for="password">Confirm Password:</label>
                     <input type="password" id="confirmPassword" name="confirmPassword">
-                  </form>
-
+                  </li>
+                  </ul>
             </div>
             <div class = signUp>
-                <button>Create Account</button>
+              
+                <button type="submit">Create Account</button>
+                </form>
                 <p>Have an account already? Log in</p>
             </div>
         </div>

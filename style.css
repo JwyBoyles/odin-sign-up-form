@@ -2,19 +2,25 @@ body {
     min-height: 100vh;
 }
 
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100rem;
+}
+
 @font-face {
     font-family: norse-bold;
     src: url(./fonts/norse-bold.otf);
 }
 
-.title {
+h1 {
     font-family: norse-bold;
     font-size: 72px;
  }
 
 label {
     display: inline-block;
-    width: 100px;
+    width: 150px;
 }
 
 .container {
@@ -54,20 +60,22 @@ label {
 }
 
 .paragraph {
-    height: 33%;
+    height: 34%;
     font-size: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #DDEAF3;
+    padding-left: 1rem;
 }
 
 .formSection {
     height: 33%;
     background-color: #F3EADD;
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto;
     align-items: center;
+    padding-left: 1rem;
 }
 
 .signUp {
@@ -78,4 +86,5 @@ label {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    padding-left: 1rem;
 }
