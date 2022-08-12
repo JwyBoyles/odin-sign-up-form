@@ -29,6 +29,15 @@ li {
     list-style-type: none;
 }
 
+button {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: #F3EADD;
+}
+
 .container {
     display: flex;
     min-height: 100vh;
