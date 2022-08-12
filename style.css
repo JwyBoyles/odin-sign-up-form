@@ -1,5 +1,7 @@
 body {
     min-height: 100vh;
+    border: 0px;
+    margin: 0px;
 }
 
 form {
@@ -21,6 +23,10 @@ h1 {
 label {
     display: inline-block;
     width: 150px;
+}
+
+li {
+    list-style-type: none;
 }
 
 .container {
@@ -76,6 +82,7 @@ label {
     grid-template-columns: auto auto;
     align-items: center;
     padding-left: 1rem;
+    filter: drop-shadow(0px 1px 2px #3a3631);
 }
 
 .signUp {
